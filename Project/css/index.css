@@ -184,6 +184,15 @@ video {
 
   }
 
+  .element-section {
+    display: grid !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+
   .col {
     width: 100% !important;
 
