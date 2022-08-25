@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  color:#ffffff;
+  background-color: black;
+
+}
+* {
+  padding: 0px;
+  margin: 0px
+}
+h1 {
+  color: #ffffff;
+  font-family: pitch,courier new,Courier,lucida sans typewriter,lucida typewriter,monospace;
+}
+h2 {
+  font-size: 2em;
+  padding-bottom: 1%;
+}
+button {
+  border: none;
+  background-color: #9370db;
+  border-radius: 2px;
+  height: 2em;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+i {
+  padding:5%;
+}
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+/* video styles */
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#content {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+
+[grid-row] {
+  align-items:flex-start;
+  box-sizing:border-box;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap
+ }
+ [grid-col] {
+  box-sizing:border-box
+ }
+ [grid-row] [grid-col].empty:after {
+  content:"\0000A0";
+  cursor:text
+ }
+ body.mobile[data-adminview=content-editproject] [grid-row] [grid-col].empty:after {
+  display:none
+ }
+ [grid-col=auto] {
+  -webkit-box-flex:1;
+  -webkit-flex:1;
+  -ms-flex:1;
+  flex:1
+ }
+ [grid-col=x12] {
+  width:100%
+ }
+ [grid-col=x11] {
+  width:50%
+ }
+ [grid-col=x10] {
+  width:33.33%
+ }
+ [grid-col=x9] {
+  width:25%
+ }
+ [grid-col=x8] {
+  width:20%
+ }
+ [grid-col=x7] {
+  width:16.666666667%
+ }
+ [grid-col=x6] {
+  width:14.285714286%
+ }
+ [grid-col=x5] {
+  width:12.5%
+ }
+ [grid-col=x4] {
+  width:11.111111111%
+ }
+ [grid-col=x3] {
+  width:10%
+ }
+ [grid-col=x2] {
+  width:9.090909091%
+ }
+ [grid-col=x1] {
+  width:8.333333333%
+ }
+ [grid-col="1"] {
+  width:8.33333%
+ }
+ [grid-col="2"] {
+  width:16.66667%
+ }
+ [grid-col="3"] {
+  width:25%
+ }
+ [grid-col="4"] {
+  width:33.33333%
+ }
+ [grid-col="5"] {
+  width:41.66667%
+ }
+ [grid-col="6"] {
+  width:50%
+ }
+ [grid-col="7"] {
+  width:58.33333%
+ }
+ [grid-col="8"] {
+  width:66.66667%
+ }
+ [grid-col="9"] {
+  width:75%
+ }
+ [grid-col="10"] {
+  width:83.33333%
+ }
+ [grid-col="11"] {
+  width:91.66667%
+ }
+ [grid-col="12"] {
+  width:100%
+ }
