@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="assets/da-logo.jpg">
+    <title>New Product</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="header-mp">
+        <div grid-row="" grid-pad="0" grid-gutter="0" grid-responsive="" class="header-menu">
+            <div grid-col="x5" grid-pad="0"><a href="products.html" rel="home_page">L ' ART</a></div>
+            <div grid-col="x5" grid-pad="0"><a href="#" rel="history">ABOUT</a></div>
+            <div grid-col="x5" grid-pad="0"><a href="#" rel="history">NFT</a></div>
+            <div grid-col="x5" grid-pad="0"><a href="#" rel="history">WORK</a></div>
+            <div grid-col="x5" grid-pad="0"><a href="#" rel="history">VISUALS</div>
+            <div grid-col="x5" grid-pad="0"><a href="#" rel="history">GIFS</a></div>
+            <div grid-col="x5" grid-pad="0"></div>
+            <div grid-col="x5" grid-pad="0"><i class="fa-brands fa-facebook-f"></i> <i
+                    class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i></div>
+        </div>
+        <h1 class="product-title">L ' Art</h1>
+    </div>
+    <h2 id="newProduct-title">Add new product</h2>
+    <div id="newProduct" class="wrapper">
+        <div class="product-container">
+            <div class="col wrapper-form justify-content-center">
+                <div class="card">
+
+
+                    <label>Product Name:</label>
+                    <input type="text">
+                    <label for="">Product Description:</label>
+                    <textarea></textarea>
+                    <label for="">Año de creacion:</label>
+                    <input type="number" min="1980" max="2022" step="1" value="2022" />
+                    <label for="">Tecnica:</label>
+                    <input type="text">
+                    <label for="">Medida Altura</label>
+                    <input type="text">
+                    <label>Medida ancho</label>
+                    <input type="text" name="" id="">
+                    <label for="">Imagen:</label>
+                    <input type="file" id="upload-button" name="avatar" accept="image/png, image/jpeg">
+                    <label id="photo-label" for="upload-button"><i class="fa-solid fa-upload"></i>Escoge una
+                        imagen</label>
+                </div>
+
+            </div>
+            <div class="col justify-content-center">
+                <h4>Image Preview</h4>
+                <img id="upload" src="assets/da-logo.jpg" alt="your image" />
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script type="text/javascript" src="js/preview.js"></script>
+
+</html>

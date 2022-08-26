@@ -19,8 +19,8 @@ h1 {
 }
 
 h2 {
-  font-size: 3em;
-  padding-bottom: 1%;
+  font-size: 2.5em;
+
 }
 
 h3 {
@@ -52,6 +52,43 @@ a {
 img {
   max-width: 100%;
   max-height: 100%;
+}
+
+form {
+  display: grid;
+
+}
+
+label {
+  margin-top: 0.8em;
+}
+
+input {
+  margin-top: 0.5em;
+  height: 1.5em;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+
+.wrap per-form {
+  width: 50% !important;
+  margin-top: 3em;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 /* Style the Image Used to Trigger the Modal */
@@ -243,10 +280,40 @@ video {
   background: radial-gradient(circle, rgba(95, 200, 104, 0.9261905445772058) 0%, rgba(22, 157, 50, 1) 100%);
 }
 
+#newProduct-title {
+  margin-top: 1em;
+  text-align: center;
+}
+
+#upload {
+  margin-top: 1em;
+  opacity: 0.1;
+  width: 80%;
+  height: auto;
+}
+
+#photo-label {
+  display: block;
+  position: inherit;
+  background-color: #025bee;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  width: 300px;
+  padding: 18px 0;
+  border-radius: 5px;
+  margin: auto;
+  cursor: pointer;
+}
+
+#newProduct {
+  margin-top: 1em !important;
+}
+
 .wrapper {
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 2%;
+  margin-top: 3%;
 
 }
 
@@ -274,6 +341,7 @@ video {
 }
 
 .product-container {
+  width: 100%;
   display: inline-flex;
   margin-top: 1%;
 }
@@ -479,4 +547,20 @@ body.mobile[data-adminview=content-editproject] [grid-row] [grid-col].empty:afte
 
 [grid-col="12"] {
   width: 100%
+}
+
+
+
+
+
+
+
+.card {
+  background: var(--color-background);
+  padding: 30px;
+  border-radius: var(--size-radius);
+  border: 3px solid var(--color-shadow, currentColor);
+  box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
+  display: grid;
+  margin-bottom: 3em;
 }
